@@ -1,0 +1,3 @@
+SimpleEmergencyRoom average time: 3049530.0
+MinBinHeapER average time: 14540.1
+Percent decrease: 99.53%

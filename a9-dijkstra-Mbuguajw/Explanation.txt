@@ -1,0 +1,11 @@
+Roadtrip Explanation:
+In creating this graph, I wanted to only consider the categories of distance, traffic, and tour attractions. Therefore
+I disregarded the entire column as scenery, since I am typically either asleep during these trips or too focused on the
+road. From there, I took the recorded distance between each edge, and divided by the rating of traffic between each edge.
+The ranking of traffic ranged from 1-7, seven being "No Traffic", six being "Light", five "Low", four being "Medium",
+three "Average", two "Moderate", and one being "Heavy Traffic". Then the distance would be be divided by the intensity
+of the traffic. The less traffic, the more the distance's edge would lessen. Then all the scenery drives would be added
+to the quotients of these, and finally the attractions ratings would once more divide these edge totals. The
+attractions would be rated on a scale of 1-5, based on how interesting/fun they appeared to be. One represented a poor
+collection of attractions, while five showed an elite collection of attractions. That is how all of the factors of
+the road trip will be taken account for when calculating the weight of an edge.
